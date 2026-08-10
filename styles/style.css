@@ -11,6 +11,7 @@
   --color-primary: #6b3a2c;
   --color-primary-dark: #4a2418;
   --color-accent: #c98a3e;
+  --color-accent-text: #8a5a1e; /* darker gold — WCAG AA-safe (5.9:1 on white), for text/small-badge use */
   --color-accent-light: #f1d9b0;
   --color-border: #e6d5c3;
   --color-error: #b3261e;
@@ -215,7 +216,7 @@ textarea:focus-visible {
 }
 
 .cart-badge {
-  background: var(--color-accent);
+  background: var(--color-accent-text);
   color: #fff;
   border-radius: 999px;
   min-width: 1.4rem;
@@ -398,7 +399,7 @@ textarea:focus-visible {
   text-transform: uppercase;
   font-size: 0.7rem;
   letter-spacing: 0.06em;
-  color: var(--color-accent);
+  color: var(--color-accent-text);
   font-weight: 700;
   margin: 0 0 0.25rem;
 }
