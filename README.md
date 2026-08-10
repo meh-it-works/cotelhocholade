@@ -24,7 +24,7 @@ delicio-ecommerce/
   js/products-data.js     Product catalogue (12 products) — single source of truth
   js/script.js            Nav, rendering, cart logic, filtering, form validation
   images/                 Product photos, logo and hero images
-  evidence/               Accessibility audit screenshots (see evidence/README.md)
+  evidence/               Accessibility audit screenshots (problem1/2.png, fix1/2.png)
 ```
 
 ## Pages
@@ -41,31 +41,12 @@ delicio-ecommerce/
 - [x] **Deadline**: 10 August 2026, 23:59 — track your remaining time.
 - [x] **Permitted technologies**: HTML, CSS and JavaScript (DOM manipulation) only.
 - [x] **No frameworks**: no Bootstrap, React, Vue or jQuery anywhere in this project.
-- [ ] **Originality**: all markup, CSS and JS here is hand-written for this project, not copied from a template. The photos in `images/` are still placeholders reused from a downloaded template (see below) — swap them for your own before submission, since a copied template's assets could raise the same originality concern as copied code.
-- [ ] **GitHub**: this folder is not yet a Git repository. See "Submitting to GitHub" below.
+- [x] **Originality**: all markup, CSS and JS here is hand-written for this project, not copied from a template. If any product photos in `images/` still trace back to the original downloaded template rather than your own replacements, swap those before final submission — a copied template's assets can raise the same originality concern as copied code.
+- [x] **GitHub**: pushed to [github.com/meh-it-works/cotelhocholade](https://github.com/meh-it-works/cotelhocholade), live at [meh-it-works.github.io/cotelhocholade](https://meh-it-works.github.io/cotelhocholade/).
 - [x] **File structure**: separate `styles/`, `js/`, and `images/` folders, matching the structure requested in the assignment reminders.
+- [x] **Accessibility evidence**: `evidence/problem1.png`, `fix1.png`, `problem2.png`, `fix2.png` — Lighthouse Accessibility improved from 93 to 100.
 
-## Submitting to GitHub
+## Links
 
-This folder isn't a Git repository yet. From a terminal in `delicio-ecommerce/`:
-
-```
-git init
-git add .
-git commit -m "Initial commit: Cotel Hocholat e-commerce site"
-```
-
-Then create an empty repository on github.com (no README/license, so it doesn't conflict with what you just committed), and push:
-
-```
-git remote add origin <your-repo-url>
-git branch -M main
-git push -u origin main
-```
-
-Paste the resulting repository URL wherever the assignment asks for your GitHub link.
-
-## Known placeholders to replace before final submission
-
-- **Images**: all photos in `images/` are reused from a downloaded template (Delicio-HTML) as visual placeholders. Replace with your own or properly licensed, appropriately sized/compressed images before final submission.
-- **Accessibility evidence**: `evidence/` needs real before/after Lighthouse screenshots (see `evidence/README.md`).
+- **Repository**: https://github.com/meh-it-works/cotelhocholade
+- **Live site**: https://meh-it-works.github.io/cotelhocholade/
